@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{235306E7-BFA1-4CBA-83D1-BA2DFE63A749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bubmango.Web", "Bubmango.Web\Bubmango.Web.csproj", "{585B4FB3-CFA4-46D1-92DC-17A2F35452B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{128B17B9-6E59-4D44-8AC1-B7767ED2DA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bupmango.Services.ProductAPI", "Bupmango.Services.ProductAPI\Bupmango.Services.ProductAPI.csproj", "{AD67D933-2E88-42B0-8AF8-FC2833BACB71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{585B4FB3-CFA4-46D1-92DC-17A2F35452B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585B4FB3-CFA4-46D1-92DC-17A2F35452B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585B4FB3-CFA4-46D1-92DC-17A2F35452B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585B4FB3-CFA4-46D1-92DC-17A2F35452B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD67D933-2E88-42B0-8AF8-FC2833BACB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD67D933-2E88-42B0-8AF8-FC2833BACB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD67D933-2E88-42B0-8AF8-FC2833BACB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD67D933-2E88-42B0-8AF8-FC2833BACB71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585B4FB3-CFA4-46D1-92DC-17A2F35452B5} = {235306E7-BFA1-4CBA-83D1-BA2DFE63A749}
+		{AD67D933-2E88-42B0-8AF8-FC2833BACB71} = {128B17B9-6E59-4D44-8AC1-B7767ED2DA04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BED426E-209F-4677-92A2-B970571AEDD6}
+	EndGlobalSection
+EndGlobal
