@@ -1,5 +1,6 @@
 using AutoMapper;
 using Bupmango.Services.ProductAPI.DbContexts;
+using Bupmango.Services.ProductAPI.Models.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -24,6 +25,7 @@ namespace Bupmango.Services.ProductAPI
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             services.AddSingleton(mapper);
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers(); 
             services.AddSwaggerGen(c =>
