@@ -1,4 +1,4 @@
-﻿namespace Bubmango.Web
+﻿namespace Bupmango.Web
 {
     public static class SD
     {
