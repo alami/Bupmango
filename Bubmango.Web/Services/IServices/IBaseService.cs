@@ -4,15 +4,10 @@ using Bupmango.Web.Models;
 
 namespace Bubmango.Web.Services.IServices
 {
-    public class IBaseService : IDisposable
+    public interface IBaseService : IDisposable
     {
         ResponseDto responseModel { get; set; }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<T> SendAsync<T>(ApiRequest apiRequest);
+        Task<T> SendAsync<T>(ApiRequest apiRequest);
     }
 }
